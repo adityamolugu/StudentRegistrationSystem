@@ -1,0 +1,64 @@
+JFDML JFormDesigner: "5.2.3.0.281" Java: "1.7.0_79" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq t {par t {seq t {space :p:75:p, par l {comp label1:::p::p, comp label2:::p::p}, space ::27:x, par l:::p {comp textField1::::116:x, comp passwordField1::::116:x}}, seq t {space ::98:x, comp button1:::p:74:p, space s:::p, comp cancelButton:::p:80:p}}, space :p:90:p}, seq l {space :p:132:p, comp title1:::p:75:p, space ::153:x}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp title1:::p:28:p, space :p:18:p, par b {comp textField1::b:p::p, comp label1::b:p::p}, space s:::p, par b {comp passwordField1::b:p::p, comp label2::b:p::p}, space ::38:x, par b {comp cancelButton::b:p::p, comp button1::b:p::p}, space :p:29:p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "cancelButton"
+						"text": "Cancel"
+					} )
+					add( new FormComponent( "javax.swing.JPasswordField" ) {
+						name: "passwordField1"
+					} )
+					add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+						name: "label1"
+						"textWithMnemonic": "User Name"
+					} )
+					add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+						name: "label2"
+						"textWithMnemonic": "Password"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "Submit"
+					} )
+					add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsTitle" ) {
+						name: "title1"
+						"textWithMnemonic": "Log in Page"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+					"$columnSpecs": "0:1.0, 80, 80"
+					"$rowSpecs": "0"
+					"$hGap": 5
+					"$vGap": 5
+				} ) {
+					name: "buttonBar"
+					"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}

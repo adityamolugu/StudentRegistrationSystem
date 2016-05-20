@@ -1,0 +1,107 @@
+JFDML JFormDesigner: "5.2.3.0.281" Java: "1.7.0_79" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {par l {seq l {space :::p, par l {comp checkBox1::l:p:105:p, comp checkBox2::l:p:105:p, comp checkBox3::l:p:105:p, comp checkBox4::l:p:105:p, comp checkBox5::l:p:105:p}, space :::x, par l:::p {comp checkBox6::::105:x, comp checkBox8::l::105:x, comp checkBox9::l::105:x, comp checkBox10::l::105:x, comp checkBox11:::p::p}}, comp separator1::t:::x, seq l {space :p:159:p, comp button1:::p::p, space ::78:x, comp label1:::p::p, space :::p, comp textField1:::p:36:p, space :p:34:p}}, space :::p}}"
+					"$verticalGroup": "par l {seq l {par l {seq {space :::p, comp button1:::p::p}, par b:l {comp textField1::b:p::p, comp label1::b:p::p}}, space :p:15:p, comp separator1:::p::p, space u:::p, par l {seq {comp checkBox1:::p::p, space u:::p, comp checkBox2:::p::p, space u:::p, comp checkBox3:::p::p, space u:::p, comp checkBox4:::p::p}, seq {comp checkBox6:::p::p, space u:::p, comp checkBox8:::p::p, space u:::p, comp checkBox9:::p::p, space u:::p, comp checkBox10:::p::p}}, space u:::p, par l {comp checkBox5:::p::p, comp checkBox11:::p::p}, space ::55:x}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "Retrieve List of Courses"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox1"
+						"text": "Course 1"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox2"
+						"text": "Course 2"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox3"
+						"text": "Course 3"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox4"
+						"text": "Course 4"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox5"
+						"text": "Course 5"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox6"
+						"text": "Course 6"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox8"
+						"text": "Course 7"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox9"
+						"text": "Course 8"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox10"
+						"text": "Course 9"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox11"
+						"text": "Course 10"
+					} )
+					add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
+						name: "separator1"
+						"text": "Select Courses"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+					} )
+					add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+						name: "label1"
+						"textWithMnemonic": "Capacity"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+					"$columnSpecs": "0:1.0, 80, 80, 0"
+					"$rowSpecs": "0, 0"
+					"$hGap": 5
+					"$vGap": 5
+				} ) {
+					name: "buttonBar"
+					"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "okButton"
+						"text": "Generate Schedule"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 1
+						"gridwidth": 2
+						"gridx": 2
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 550, 330 )
+		} )
+		add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
+			name: "separator2"
+			"text": "text"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 465, 170 )
+		} )
+	}
+}
